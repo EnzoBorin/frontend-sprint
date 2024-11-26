@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro emprestimo</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/navegação.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="menu-item"><a href="lista-aluno.html" style="color: white;">ALUNO</a></div><!-- Adicionando link para Clientes -->
+        <div class="menu-item"><a href="lista-emprestimo.html" style="color: white;">EMPRESTIMO</a></div> 
+        <div class="menu-item"><a href="lista-livro.html" style="color: white;">LIVRO</a></div>
+
+    </div>
+
+    <h1>CADASTRO EMPRESTIMO</h1>
+    <div class="container-formulario">
+        <form action="" method="post">
+            <label for="Id emprestimo">
+                Id emprestimo
+                <br>
+                <input type="text" name="Id emprestimo" placeholder="Insira o Id emprestimo do emprestimo" required>
+            </label>
+
+            <label for="Id aluno">
+                Id aluno
+                <br>
+                <input type="text" name="Id aluno" placeholder="Insira o Id aluno do emprestimo" required>
+            </label>
+
+            <label for="Id livro">
+                Id livro
+                <br>
+                <input type="text" name="Id livro" placeholder="Insira a Id livro do emprestimo" required>
+            </label>
+
+            <label for="Data de emprestimo">
+                Data de emprestimo
+                <br>
+                <input type="number" name="Data de emprestimo" placeholder="Insira o Data de emprestimo do emprestimo" required>
+            </label>
+            
+            <label for="Data de devolução">
+                Data de devolução
+                <br>
+                <input type="text" name="Data de devolução" placeholder="Insira o Data de devolução do emprestimo" required>
+            </label>
+
+            <input type="button" value="CADASTRAR">
+        </form>
+    </div>
+</body>

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.top-bar {
+    background-color: #C28946;
+    color: #EBEACA;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0; /* Grossura da barra */
+    font-size: 18px;
+}
+
+.menu-item {
+    flex: 1;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 80px); /* Altura restante após a barra superior */
+}
+
+.left-section, .right-section {
+    flex: 1;
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+}
+
+.left-section {
+    flex-direction: column;
+    background-color: #EBEACA; /* Corrigido para branco */
+    padding: 20px;
+}
+
+.logo {
+    margin-bottom: 20px; /* Ajustar a logo mais para cima */
+    margin-top: -40px; /* Levantar a logo mais */
+    text-align: center;
+}
+
+.welcome-text {
+    text-align: center;
+    font-size: 37px; /* Aumentar o tamanho das letras */
+    font-weight: normal; /* Remover negrito do texto */
+}
+
+.welcome-text p {
+    font-size: 30px; /* Aumentar o parágrafo */
+    font-weight: normal; /* Remover negrito do parágrafo */
+}
+
+.right-section {
+    background-color: #EBEACA; /* Ajustar o fundo para branco */
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.car-image {
+    width: 90%;
+    height: auto;
+    object-fit: contain; /* Ajustar a imagem sem distorcer */
+}
+
+.car-image img {
+
+    width: 1000px;
+    height: 600px;
+    background-color: transparent; /* Remover o fundo do quadrado */
+    margin: 20px;
+}
+
+.logo img {
+        width: 100%;
+        margin-top: 1%;
+}
+
+.welcome-text {
+    font-size: 26px;
+    text-align: center;
+    margin: 0 40px 20px 40px;
+}

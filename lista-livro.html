@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Clientes</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/navegação.css">
+    <link rel="stylesheet" href="css/listagem.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="menu-item"><a href="lista-aluno.html" style="color: white;">ALUNO</a></div><!-- Adicionando link para Clientes -->
+        <div class="menu-item"><a href="lista-emprestimo.html" style="color: white;">EMPRESTIMO</a></div> 
+        <div class="menu-item"><a href="lista-livro.html" style="color: white;">LIVRO</a></div>
+
+    </div>
+
+    <div class="painel">
+        <div class="esquerda">
+            <div>
+                <a href="/cadastro-livro.html">NOVO LIVRO</a>
+            </div>
+        </div>
+        <div class="meio">
+            <h1>LIVRO</h1>
+        </div>
+        <div class="direita"></div>
+    </div>
+    <div class="container-tabela">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID LIVRO</th>
+                    <th>TÍTULO</th>
+                    <th>AUTOR</th>
+                    <th>EDITORA</th>
+                    <th>ANO DE PUBLICAÇÃO</th>
+                    <th>ISBN</th>
+                    <th>QANTIDADE TOTAL</th>
+                    <th>QUANTIDADE DESPONIVEL</th>
+                    <th>VALOR AQUISIÇÃO</th>
+                    <th>STATUS LIVRO EMPRESTADO</th>
+                    <th>AÇÕES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>O Senhor dos Anéis</td>
+                    <td>J.R.R. Tolkien</td>
+                    <td>Martins Fontes</td>
+                    <td>1954</td>
+                    <td>978-8578277109</td>
+                    <td>10</td>
+                    <td>7</td>
+                    <td>R$ 85,00</td>
+                    <td>SIM</td>
+                    <td>
+                        <img src="assets/icons/pencil-square.svg" alt="editar">
+                        <img src="assets/icons/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Dom Quixote</td>
+                    <td>Miguel de Cervantes</td>
+                    <td>L&PM</td>
+                    <td>1605</td>
+                    <td>978-8525407209</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>R$ 45,00</td>
+                    <td>NÃO</td>
+                    <td>
+                        <img src="assets/icons/pencil-square.svg" alt="editar">
+                        <img src="assets/icons/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>A Divina Comédia</td>
+                    <td>Dante Alighieri</td>
+                    <td>Penguin Classics</td>
+                    <td>1320</td>
+                    <td>978-0142437223</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>R$ 70,00</td>
+                    <td>Não</td>
+                    <td>
+                        <img src="assets/icons/pencil-square.svg" alt="editar">
+                        <img src="assets/icons/trash-fill.svg" alt="excluir">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
